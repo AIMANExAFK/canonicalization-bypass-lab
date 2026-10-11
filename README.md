@@ -1,5 +1,7 @@
 # canonicalization-bypass-lab
 
+[![tests](https://github.com/AIMANExAFK/canonicalization-bypass-lab/actions/workflows/tests.yml/badge.svg)](https://github.com/AIMANExAFK/canonicalization-bypass-lab/actions/workflows/tests.yml)
+
 Note de sécurité éducative sur une **classe** de vulnérabilités : le *parser desync* (désaccord d'interprétation entre deux composants) et le défaut de **canonicalisation**.
 
 Le fil conducteur : une attaque récente sur le *watermarking de texte* des LLM (insertion de caractères Unicode invisibles) est, au fond, **le même bug** que les bypass de WAF, les *path traversal* encodés ou le *HTTP request smuggling*. Comprendre le motif commun permet de les fermer tous de la même façon.
